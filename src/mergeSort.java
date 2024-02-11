@@ -1,3 +1,12 @@
+/*
+ Merge Sort is a sorting algorithm.that works in dividing into smaller subarray sorting each sub array and
+  then merging the sorted sub array back together to form a string
+  time complexity 0(n* log n)
+  space complexity 0(n)
+
+  merge sort is recursive algorithm that continously split the array in half until it cannot be futher divided
+ */
+
 public class mergeSort {
     public static void mergeSortInsert(int []arr,int start,int end){
         if(start>=end){
